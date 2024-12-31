@@ -1,0 +1,8 @@
+a=int(input("first"))
+b=int(input("second"))
+res1=(a+b)**2
+res2=a**2+2*a*b+b**2
+if(res1==res2):
+    print("rhs=lhs")
+else:
+    print("wrong")
