@@ -1,0 +1,12 @@
+# with open("hello.txt","w") as a:
+#     # print(a.read())
+#     a.write("hello this is not good")
+#     # print(a.read())
+f=open("hello.txt","r")
+a=f.read()
+print(a)
+b=a.replace("hello","peice of shit")
+print(b)
+f.close()
+f=open("hello.txt","w")
+f.write(b)
